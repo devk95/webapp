@@ -1,0 +1,71 @@
+body {
+	background-color: aliceBlue;
+	width: 100%;
+	text-align: center;
+}
+#heading {
+	font-size: 50px;
+	background-color: cadetBlue;
+	width: 100%;
+	text-align: center;
+	padding: 50px;
+}
+.article {
+	width: 33%;
+}
+.article p {
+	text-align: left;
+}
+.article h2 {
+	line-height: 40px;
+}
+img {
+	margin-top: 15px;
+}
+img:hover {
+	box-shadow: 6px 6px cadetBlue;	
+}
+#top {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#top img {
+	height: 130px;
+	width: 130px;
+}
+#top img:hover {
+	height: 150px;
+	width: 150px;
+	text-shadow: 2px 2px blue;
+}
+#top p {
+	text-align: left;
+}
+
+#stories {
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+#stories img:hover {
+	height: 120px;
+	width: 120px;
+}
+#stories img {
+	width: 100px;
+	height: 100px;
+}
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: cadetBlue;
+	color: black;
+	clear: both;
+	padding: 20px 0;
+	margin-top: 20px;
+}
+p {
+	margin: 0;;
+}
